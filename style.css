@@ -47,12 +47,16 @@ button:hover {
   display: none;
 }
 
-.show {
-  display: block;
-}
-
 .answer {
   background-color: #f1f1f1;
   padding: 15px;
   border-bottom: 1px solid white;
+}
+
+.total_scores {
+  display: none;
+}
+
+.show {
+  display: block;
 }
