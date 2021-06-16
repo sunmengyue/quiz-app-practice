@@ -1,12 +1,13 @@
 let id = 1;
-let button = document.querySelector('button');
+let nextButton = document.querySelector('.next');
 function loadQuestion() {
   document.getElementById('1').classList.add('show');
 }
 
 loadQuestion();
 
-button.addEventListener('click', (e) => {
+// move to next question when click next
+nextButton.addEventListener('click', (e) => {
   goToNext();
 });
 
